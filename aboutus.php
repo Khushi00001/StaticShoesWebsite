@@ -1,0 +1,229 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shoes</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<dir class="header">
+	<div class="container">
+<div class="navigation">
+<div class="logo">
+	<img src="logo.png" align="middle" alt="logoofpage" width="105px">
+</div>	
+<nav>
+<ul>
+		<li><a href="indexproject.html">Home</a></li>
+		<li><a href="product.html">Products</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="account.html">Account</a></li>
+	</ul>
+<img src="cart11.png" alt="pic" width="30px" height="30px">
+</div>
+<div class="about-section">
+  <h1>About Us </h1>
+ <p> Sneakers Junction is more than just a shoe store. To co-create, we collaborate with the finest in the business. This manner, we can provide our supporters with sporting products, style, and attire that meet their athletic demands while still being environmentally conscious. We're here to help creators succeed. They need to work on their game. Make a difference. And we think about the influence we have on our world.</p></div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column1">
+    <div class="card">
+      <img src="khushi.png" alt="khushi" style="width:100%">
+      <div class="container">
+        <h2>Khushi Acharya</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Khushi@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card">
+      <img src="jenish.jpg" alt="jenish" style="width:100%">
+      <div class="container">
+        <h2>Jenish Bhujel</h2>
+        <p class="title">Managing Director</p>
+        <p>jenish@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card">
+      <img src="Trilok.png" alt="Trilok" style="width:100%">
+      <div class="container">
+        <h2>Trilok Adhikari</h2>
+        <p class="title">Sales Executive/HR</p>
+        
+        <p>Trilok@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="smallcontainer">
+	<h2 class="title">Chelsea Boots</h2>
+	<div class="row">
+		<div class="col4">
+		<img src="Chelsea/boot-1.jpeg" height="300px" width="300px">
+		<h4><a href="Boot1.html">Chelsea Brown Boots</h4></a>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3500</p>
+	</div>
+	<div class="col4">
+		<img src="Chelsea/boot-3.png" height="300px" width="450px">
+		<h4><a href="Boot2.html">Chelsea Black Leather Boots</h4></a>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.2400</p>
+	</div>
+		<div class="col4">
+		<img src="Chelsea/boot-0.png" height="300px" width="450px">
+		<h4><a href="Boot3.html">Chelsea Brown Snake Leather Boots</a></h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3700</p>
+	</div>
+		<div class="col4">
+		<img src="Chelsea/boot-4.jpg" height="300px" width="450px">
+		<h4><a href="Boot4.html">Chelsea Brown Snake Leather Boots</a></h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3700</p>
+	</div>
+		<!----<div class="col4">
+		<img src="Chelsea/boot-5.jpg" height="300px" width="450px">
+		<h4>Chelsea Brown Snake Leather Boots</h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3700</p>
+	</div>
+		<div class="col4">
+		<img src="Chelsea/boot-2.jpg" height="300px" width="450px">
+		<h4>Chelsea Brown Snake Leather Boots</h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3700</p>----->
+	</div> 
+	<div class="smallcontainer">
+	<h2 class="title">Vans</h2>
+	<div class="row">
+		<div class="col4">
+		<img src="Vans/vans-9.jpg" height="300px" width="300px">
+		<h4><a href="Productvans1.html">Double Sole printed Vans</a></h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3500</p>
+	</div>
+	<div class="col4">
+		<img src="Vans/vans-6.jpg" height="300px" width="450px">
+		<h4><a href="Vans2.html">Maroon Vans</a></h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.2400</p>
+	</div>
+		<div class="col4">
+		<img src="Vans/vans-8.jpg" height="300px" width="450px">
+		<h4><a href="Van3.html">Animal Printed Black Vans</a> </h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3500</p>
+	</div>
+		<div class="col4">
+		<img src="Vans/vans-3.jfif" height="300px" width="450px">
+		<h4><a href="Vans4.html">Flower Printed White Vans</a></h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.2000</p>
+	</div>
+	<footer>
+	<div class="footer-container">
+		<div class="footer">
+			<div class="row">
+				<div class="footer-co1">
+				<h3>Company</h3>
+				<ul>
+				<li><a href="indexproject.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="aboutus.html">About Us</a></li
+				<li><a href="contact.html">Contact</a></li>				
+			</ul>
+				</div>
+				<div class="footer-col2">
+				<img src="footervans.jpg" height="200px" width="200px">
+				</div>
+				<div class="footer-col3">
+					<img src="footerlogo.png" height="200px" width="300px">
+				</div>
+				<div class="footer-col4">
+				<h3>Follow us on</h3>
+				<ul>
+				<li><a href="https://www.facebook.com">Facebook</a></li>
+				<li><a href="Twitter.com">Twitter</a></li>
+				<li><a href="Instagram.com">Instagram</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

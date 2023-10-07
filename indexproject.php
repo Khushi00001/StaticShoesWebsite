@@ -1,0 +1,182 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shoes</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header">
+	<div class="container">
+<div class="navigation">
+<div class="logo">
+	<img src="logo.png" align="middle" alt="logoofpage" width="105px">
+</div>	
+<nav>
+	<ul>
+		<li><a href="indexproject.html">Home</a></li>
+		<li><a href="product.html">Products</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="formvalidation.php">Contact</a></li>
+		<li><a href="Logout.php">Logout</a></li>
+	</ul>
+</nav>
+<img src="cart11.png" alt="pic" width="30px" height="30px">
+</div>
+<div class="row">
+	<div class="col2">
+		<h1>Junction for every sneakers|||||<br></h1> 
+		<p>Life isn't perfect but your sneakers can be</p>
+		<a href="product.html" class="btn">Explore now &#8594;</a>
+	</div> 
+	<div class="col2">
+		<img src= "coverpic1.jpg" height="500px" width="500px"> 
+	</div>
+</div>
+</div>
+</div>
+<iframe width="1200" height="500" src="https://www.youtube.com/embed/0KKOjFULFZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!---- Featured Products ----->
+<div class="smallcontainer">
+	<h2 class="title">Chelsea Boots</h2>
+	<div class="row">
+		<div class="col4">
+		<img src="Chelsea/boot-1.jpeg" height="300px" width="300px">
+		<h4><a href="Boot1.html">Chelsea Brown Boots</h4></a>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3500</p>
+	</div>
+	<div class="col4">
+		<img src="Chelsea/boot-3.png" height="300px" width="450px">
+		<h4><a href="Boot2.html">Chelsea Black Leather Boots</h4></a>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.2400</p>
+	</div>
+		<div class="col4">
+		<img src="Chelsea/boot-0.png" height="300px" width="450px">
+		<h4><a href="Boot3.html">Chelsea Brown Snake Leather Boots</a></h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3700</p>
+	</div>
+		<div class="col4">
+		<img src="Chelsea/boot-4.jpg" height="300px" width="450px">
+		<h4><a href="Boot4.html">Chelsea Brown Snake Leather Boots</a></h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3700</p>
+	</div>
+		</div>
+	</div> 
+	<div class="smallcontainer">
+	<h2 class="title">Vans</h2>
+	<div class="row">
+		<div class="col4">
+		<img src="Vans/vans-9.jpg" height="300px" width="300px">
+		<h4><a href="Productvans1.html">Double Sole printed Vans</a></h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3500</p>
+	</div>
+	<div class="col4">
+		<img src="Vans/vans-6.jpg" height="300px" width="450px">
+		<h4><a href="Vans2.html">Maroon Vans</a></h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.2400</p>
+	</div>
+		<div class="col4">
+		<img src="Vans/vans-8.jpg" height="300px" width="450px">
+		<h4><a href="Van3.html">Animal Printed Black Vans</a> </h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.3500</p>
+	</div>
+		<div class="col4">
+		<img src="Vans/vans-3.jfif" height="300px" width="450px">
+		<h4><a href="Vans4.html">Flower Printed White Vans</a></h4>
+			<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>Rs.2000</p>
+	</div>
+	<footer>
+	<div class="footer-container">
+		<div class="footer">
+			<div class="row">
+				<div class="footer-co1">
+				<h3>Company</h3>
+				<ul>
+				<li><a href="indexproject.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="contact.html">Contact</a></li>				</ul>
+				</div>
+				<div class="footer-col2">
+				<img src="footervans.jpg" height="200px" width="200px">
+				</div>
+				<div class="footer-col3">
+					<img src="footerlogo.png" height="200px" width="300px">
+				</div>
+				<div class="footer-col4">
+				<h3>Follow us on</h3>
+				<ul>
+				<li><a href="https://www.facebook.com">Facebook</a></li>
+				<li><a href="Twitter.com">Twitter</a></li>
+				<li><a href="Instagram.com">Instagram</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
